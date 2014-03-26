@@ -1,0 +1,8 @@
+
+lib_filelist:
+ - first_dir/second_dir/second_file.asd
+ - first_dir/fourth_dir
+
+patch_filelist:
+ - first_dir/second_dir/second_file.asd/02.patch
+

@@ -1,0 +1,8 @@
+
+patch: /home/kain/dist-mergr/opt/examples/4/patch
+
+patch_filelist:
+ - first_dir/second_dir/second_file.asd/02.patch
+
+patch_cmd: echo should use patch %s for file %s
+

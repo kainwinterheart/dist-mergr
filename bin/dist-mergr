@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+package main;
+
+use Getopt::Long 'GetOptions';
+
+use App::DistMergr::Bin ();
+
+my $spec = 'Distmergrfile';
+my $mode = '';
+
+GetOptions(
+	'spec=s' => \$spec,
+	'mode=s' => \$mode
+);
+
+my $app = App::DistMergr::Bin -> new(
+	options => {
+		spec => $spec,
+		mode => $mode
+	}
+);
+
+$app -> main();
+
+exit 0;
+

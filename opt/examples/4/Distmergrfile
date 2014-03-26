@@ -1,0 +1,12 @@
+
+dest: /home/kain/dist-mergr/opt/examples/4/dest
+lib: /home/kain/dist-mergr/opt/examples/4/lib
+patch: /home/kain/dist-mergr/opt/examples/4/patch
+
+lib_filelist:
+ - first_dir/second_dir/second_file.asd
+ - first_dir/fourth_dir
+
+patch_filelist:
+ - first_dir/second_dir/second_file.asd/02.patch
+
