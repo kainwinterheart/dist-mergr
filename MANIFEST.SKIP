@@ -13,15 +13,7 @@
 
 # Avoid archives of this distribution
 \bApp-DistMergr-[\d\.\_]+
-bin/dist-mergr
-Build.PL
-lib/App/DistMergr.pm
-lib/App/DistMergr/Bin.pm
-lib/App/DistMergr/Helpers/Base/Dir.pm
-lib/App/DistMergr/Helpers/Lib.pm
-lib/App/DistMergr/Helpers/Patch.pm
-lib/App/DistMergr/Spec.pm
-MANIFEST			This list of files
+
 opt/examples/1/Distmergrfile
 opt/examples/1/lib/first_dir/second_dir/second_file.asd
 opt/examples/1/lib/first_dir/third_dir/third_file
@@ -55,4 +47,4 @@ opt/examples/5/lib/first_file.txt
 opt/examples/5/lib/fourth_file.txt
 opt/examples/5/patch/first_dir/second_dir/second_file.asd/01.patch
 opt/examples/5/patch/first_dir/second_dir/second_file.asd/02.patch
-README.md
+
