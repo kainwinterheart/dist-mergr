@@ -1,0 +1,42 @@
+---
+abstract: 'Easily merge one distribution into another'
+author:
+  - 'Gennadiy Filatov <gfilatov@cpan.org>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.36
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.133380'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-DistMergr
+provides:
+  App::DistMergr:
+    file: lib/App/DistMergr.pm
+    version: 0.01
+  App::DistMergr::Bin:
+    file: lib/App/DistMergr/Bin.pm
+  App::DistMergr::Helpers::Base::Dir:
+    file: lib/App/DistMergr/Helpers/Base/Dir.pm
+  App::DistMergr::Helpers::Lib:
+    file: lib/App/DistMergr/Helpers/Lib.pm
+  App::DistMergr::Helpers::Patch:
+    file: lib/App/DistMergr/Helpers/Patch.pm
+  App::DistMergr::Spec:
+    file: lib/App/DistMergr/Spec.pm
+requires:
+  Cwd: 0
+  File::Copy: 0
+  File::Spec: 0
+  Module::Load: 0
+  Moose: 0
+  MooseX::StrictConstructor: 0
+  Perl6::Slurp: 0
+  String::ShellQuote: 0
+  YAML::Syck: 0
+  boolean: 0
+  namespace::autoclean: 0
+  perl: v5.10.1
+version: 0.01

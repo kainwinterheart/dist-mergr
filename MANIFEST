@@ -1,0 +1,13 @@
+bin/dist-mergr
+Build.PL
+lib/App/DistMergr.pm
+lib/App/DistMergr/Bin.pm
+lib/App/DistMergr/Helpers/Base/Dir.pm
+lib/App/DistMergr/Helpers/Lib.pm
+lib/App/DistMergr/Helpers/Patch.pm
+lib/App/DistMergr/Spec.pm
+MANIFEST			This list of files
+MANIFEST.SKIP
+README.md
+META.yml
+META.json
